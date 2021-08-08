@@ -1,0 +1,15 @@
+Algoritmo ejercicio_13
+	Leer IMP
+	R1000 = IMP%1000
+	B1000 = (IMP-R1000)/1000
+	R500 = R1000%500
+	B500 = (R1000-R500)/500
+	R200 = R500%200
+	B200 = (R500-R200)/200
+	R100 = R200%100
+	B100 = (R200-R100)/100
+	Escribir B1000
+	Escribir B500
+	Escribir B200
+	Escribir B100
+FinAlgoritmo

@@ -1,0 +1,14 @@
+Algoritmo ejercicio_06
+	Leer SEM1,SEM2,SEM3,SEM4
+	TOTAL = SEM1+SEM2+SEM3+SEM4
+	PROMEDIO = TOTAL/4
+	PSEM1 = (SEM1*100)/TOTAL
+	PSEM2 = (SEM2*100)/TOTAL
+	PSEM3 = (SEM3*100)/TOTAL
+	PSEM4 = (SEM4*100)/TOTAL
+	Escribir PROMEDIO
+	Escribir PSEM1
+	Escribir PSEM2
+	Escribir PSEM3
+	Escribir PSEM4
+FinAlgoritmo
